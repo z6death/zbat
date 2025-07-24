@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>z6</string>
+  <key>uuid</key>
+  <string>z6-theme-0001</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#00FF00</string>
+        <key>background</key>
+        <string>#000000</string>
+        <key>caret</key>
+        <string>#FFFFFF</string>
+        <key>invisibles</key>
+        <string>#444444</string>
+        <key>lineHighlight</key>
+        <string>#002200</string>
+        <key>selection</key>
+        <string>#005500</string>
+      </dict>
+    </dict>
+
+    <!-- Comments -->
+    <dict>
+      <key>scope</key>
+      <string>comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#007700</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+
+    <!-- Keywords -->
+    <dict>
+      <key>scope</key>
+      <string>keyword</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#00FF00</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <!-- Strings -->
+    <dict>
+      <key>scope</key>
+      <string>string</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#33FF33</string>
+      </dict>
+    </dict>
+
+    <!-- Functions -->
+    <dict>
+      <key>scope</key>
+      <string>entity.name.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#00FFAA</string>
+      </dict>
+    </dict>
+
+    <!-- Variables -->
+    <dict>
+      <key>scope</key>
+      <string>variable</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>
+
